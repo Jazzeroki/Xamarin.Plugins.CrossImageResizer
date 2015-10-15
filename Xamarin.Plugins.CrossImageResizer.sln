@@ -3,15 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Plugins.CrossImageResizer", "Xamarin.Plugins.CrossImageResizer\Xamarin.Plugins.CrossImageResizer.csproj", "{C0382D05-1C30-422B-A833-2FE14E7EFC0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossImageResizer.Abstractions", "CrossImageResizer.Abstractions\CrossImageResizer.Abstractions.csproj", "{FD9D4C3B-79A8-4C5F-A158-96F3E142EA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossImageResizer.Android", "CrossImageResizer.Android\CrossImageResizer.Android.csproj", "{8A1B9D1D-DBA5-4097-B3CE-C4A562884473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A1B9D1D-DBA5-4097-B3CE-C4A562884473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1B9D1D-DBA5-4097-B3CE-C4A562884473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1B9D1D-DBA5-4097-B3CE-C4A562884473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1B9D1D-DBA5-4097-B3CE-C4A562884473}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0382D05-1C30-422B-A833-2FE14E7EFC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0382D05-1C30-422B-A833-2FE14E7EFC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0382D05-1C30-422B-A833-2FE14E7EFC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0382D05-1C30-422B-A833-2FE14E7EFC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9D4C3B-79A8-4C5F-A158-96F3E142EA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9D4C3B-79A8-4C5F-A158-96F3E142EA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9D4C3B-79A8-4C5F-A158-96F3E142EA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9D4C3B-79A8-4C5F-A158-96F3E142EA23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
